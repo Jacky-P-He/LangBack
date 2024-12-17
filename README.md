@@ -25,11 +25,11 @@ The project fine-tunes BERT using **full training** while using **prompt-based f
 
 The **train_data.csv** and **test_data.csv** files have the following structure:
 
-| **text**                    | **label** |
-| --------------------------- | --------- |
-| He very likes to eat pizza. | Chinese   |
-| He likes very to eat pizza. | Arabic    |
-| He likes pizza very much.   | Korean    |
+| **text**                         | **label** |
+| -------------------------------- | --------- |
+| He very likes to eat pizza.      | Chinese   |
+| He likes very to eat pizza.      | Arabic    |
+| He likes pizza very much to eat. | Korean    |
 
 - **text**: Sentence written by a non-native English speaker (L2).
 - **label**: Native language (L1) of the speaker (e.g., **Chinese**, **Arabic**, or **Korean**).
